@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: helvetica;
+    font-size: 20px;
+}
+   .button:hover {
+            background-color: aqua;
+            padding-left: 0cm;
+            margin-left: 20%;
+
+        }
+.nav{
+    background-color: rgb(1, 5, 2);
+    color:black;
+    padding-bottom: 2cm;
+    margin-right: 0cm;
+    border-bottom: solid #ccc;
+    border-width: thick;
+    
+    
+}
+.starwars.jpg{
+    width:20%;
+}
+.actiongames{
+    margin-right: 60%;
+    width:20%;
+}
+.actiongames:hover {
+   
+    zoom: 1.1;
+}
+.actiongames:hover .buttonaction{
+    
+}
+.actiongames>buatton{
+margin-right: 20%;
+margin-left: 50%;
+margin-top: -1000%;
+background-color: black;
+color:blanchedalmond;
+font-size:20px;}
+.actiongames>button:hover{
+    background-color:rgb(0, 0, 0) ;
+    
+}
+.intro{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5cm;
+    
+    margin-left: 0cm;
+    margin-right: 0cm;
+    display: block;
+    border-style: double #ccc;
+    border-top-color:black;
+    margin-top: 10%;
+    color:blanchedalmond;
+    margin-bottom: 0cm;
+   
+}
+a{
+    display: inline-block;
+    padding: 0.75cm;
+    float: right;
+    margin:-4px -2px;
+    color:white;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    border-bottom: tomato;
+    text-decoration: none;
+    font-size: 16px;
+    
+    
+}
+a:hover{
+    background-color: rgb(4, 175, 41);
+}
+.head{
+    padding-bottom: -cm;
+}
+.bar{
+    margin-right: 2cm;
+}
+.drop{
+    position: absolute;
+    padding:12px 16px;
+    background-color: black;
+    width: 100%;
+    display: none;
+    z-index: 1;
+}
+.bars{
+    display: none;
+    width: 1cm;
+    height: 1cm;
+    background-image: url('bars.svg.png');
+    background-size: 2cm;
+    position: relative;
+    background-repeat: no-repeat;
+    margin: 1.75cm 1cm ;
+}
+@media only screen and (max-width: 687px){
+    .bar{
+        display: none;
+    }
+   
+
+    .bars{
+        display: block;
+        float: right;
+        
+        size: 80%;}
+    .head{
+        display: block;
+    }
+    .bars:hover .drop{
+        display: block;
+    }
+    a{
+        list-style: none;
+        line-height: 60px;
+        font-size: 1em;
+        padding: 2px 2px;
+        color: rgb(255, 255, 255);
+        width: 100%;
+        float: right;
+        background-color: black;
+        }}
+    
+    .drop{
+        position: absolute;
+        background-color: black;
+        padding: 1px;;
+        display: none;
+        width: 200%;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        
+    }
+    
+    .drop>a{
+        display: flex;
+        margin-top: 1cm;
+        
+    }
+    @media only screen and (max-width: 510px){
+        .head{
+            font-size: 10px;
+        }
+        .nav{
+        margin: -1cm 0cm;}
+        .bars{
+            width: 1cm;
+            height: 1cm;
+            background-image: url('bars.svg.png');
+            background-size: 2cm;
+            position: relative;
+            background-repeat: no-repeat;
+            margin: 0cm 1cm ;
+            padding-top: -4cm;
+            top: 3cm;
+    }
+    @media only screen and (max-width: 880px){
+        a{
+            
+            font-size: 1em;
+            
+            }
+        }
+        @media only screen and (max-width: 510px){
+            .bars{
+                margin-top: -1.30cm;
+            }
+            .nav{margin-top: 0.3cm;}
+          
+        }
+
+        @media only screen and (max-width: 240px){
+            .head{
+               display: none;
+            }
+            .bars{
+                margin-top: -2.3cm;
+                margin-right: 1cm;
+            }
+            }
+     
+     
+          
+          
+
+
